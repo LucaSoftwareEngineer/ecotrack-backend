@@ -1,0 +1,49 @@
+﻿## Build results
+bin/
+obj/
+build/
+app.publish/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Visual Studio
+.vs/
+.vscode/
+*.dbmdl
+*.pdb
+*.cache
+*.log
+*.sln
+*.slnx
+*.csproj
+
+## Configuration
+secrets.json
+
+## Backup & temp
+*.tmp
+*.bak
+*.swp
+*.orig
+
+## HTTP test files
+*.http
+
+## OS-specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+## Git
+*.gitattributes
+
+## Others
+*.ncrunch*
+*.ndproj
+*.publish.xml
+_ReSharper*/
