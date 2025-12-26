@@ -8,5 +8,7 @@
         public DateOnly StartDate { get; set; }
         public DateOnly DueDate { get; set; }
         public bool IsCompleted { get; set; }
+        public int UserId { get; set; }
+        public User User { get; set; }
     }
 }
