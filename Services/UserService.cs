@@ -37,7 +37,11 @@ namespace ecotrack_backend.Services
             var tokenHandler = new JwtSecurityTokenHandler();
             var token = tokenHandler.CreateToken(tokenDescriptor);
 
-            LoginResponse response = new() { Token = tokenHandler.WriteToken(token), Id = user.Id };
+            LoginResponse response = new() { 
+                Token = tokenHandler.WriteToken(token), 
+                Id = user.Id, 
+                Email = user.Email 
+            };
 
             return response;
         }
