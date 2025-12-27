@@ -40,7 +40,9 @@ namespace ecotrack_backend.Services
             LoginResponse response = new() { 
                 Token = tokenHandler.WriteToken(token), 
                 Id = user.Id, 
-                Email = user.Email 
+                Email = user.Email,
+                Name = user.Name,
+                Surname = user.Surname
             };
 
             return response;
