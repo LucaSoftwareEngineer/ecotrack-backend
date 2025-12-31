@@ -30,6 +30,7 @@ builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(buil
 // Application Services
 builder.Services.AddScoped<UserService>();
 builder.Services.AddScoped<ReportTaskService>();
+builder.Services.AddScoped<TaskService>();
 
 // Configure JWT Token Authentication
 var key = Encoding.ASCII.GetBytes("5x4cB;2HDc}SJ|bk5A=dIk.>k#%7Hc)~");
